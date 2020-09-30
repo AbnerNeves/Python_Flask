@@ -1,8 +1,9 @@
-div {
-    font-weight: bold;
-    color: red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-#blcos_informação{
-    font-style: italic;
+body{
+    margin: 0;
+    min-height: calc(100vh - 40px);
+    background: #eeee;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0;
 }
