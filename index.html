@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python com Flask - Ocean 30/09/2020</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Jogo do Python</title>
 </head>
 <body>
-    <p>Minha primeira página</p><br>
-    <br>
-    <a href="http://www.google.com.br">Google.com</a><br>
-    <b>Um texto em negrito</b>
-    
-    <!-- Div é um bloco de informações  -->
+    <div class="jogo">
+        <form method="POST">
 
-    <div class="blcos_informação">
-        <span>Texto span</span>    
+            <div class="jogo__input">
+                <label for="nome_jogador">Digite seu nome: </label>
+                <input type="nome_jogador" id="nome_jogador" placeholder="Nome do Jogador" required>
+            </div>
+
+            <div class="jogo__input">
+                <input type="radio" name="escolha" id="escolha1" value="futurista" checked>
+                <label for="escolha1">Futurista</label>
+
+                <input type="radio" name="escolha" id="escolha2" value="medieval">
+                <label for="escolha2">Era Medieval</label>
+            </div>
+
+            <div class="jogo__input">
+                <input type="submit" value="Jogar!" class="botao">
+            </div>
+
+        </form>
     </div>
-    <div>
-        div 2
-    </div>
-    <div>
-        div 3
-    </div>
+    
 </body>
 </html>
