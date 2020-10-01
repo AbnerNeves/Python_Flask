@@ -7,3 +7,17 @@ body{
     font-family: 'Montserrat', sans-serif;
     padding: 20px 0;
 }
+
+.jogo{
+    width: 500px;
+    box-shadow: 0 0 black;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 0;
+}
+
+.jogo__input{
+    padding: 10px;
+}
